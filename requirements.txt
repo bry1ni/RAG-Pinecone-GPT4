@@ -1,0 +1,8 @@
+pandas
+numpy
+openai
+langchain
+langchain_openai
+pinecone-client
+llama-parse
+langchain-text-splitters
