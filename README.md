@@ -18,47 +18,28 @@ Ensure you have Python 3.8 or higher installed on your machine. You can check yo
 python --version
 Setting Up a Virtual Environment
 To create a virtual environment and activate it, run the following commands:
-
-bash
-Copy code
-# Create a virtual environment
+```
+### Create a virtual environment
+```bash
 python -m venv venv
-
-# Activate the virtual environment
-# On Windows
+```
+### Activate the virtual environment
+**On Windows**
+```bash
 venv\\Scripts\\activate
-# On Unix or MacOS
+```
+**On Unix or MacOS**
+```bash
 source venv/bin/activate
-Installing Dependencies
+```
+### Installing Dependencies
 Install all required dependencies by running:
-
-bash
-Copy code
+```bash
 pip install -r requirements.txt
-Usage
-Describe how to run the scripts in your project. For example:
-
-bash
-Copy code
-python main.py
-Scripts and Modules
-main.py
-Main script that initializes and runs the RAG system.
-
-retriever.py
-Handles the retrieval of documents based on query inputs.
-
-generator.py
-Integrates GPT-4 for generating responses based on the retrieved documents.
-
-storage.py
-Manages interactions with Pinecone for vector storage and retrieval.
-
-Contributing
+```
+## Contributing
 We welcome contributions to this project! Please feel free to fork the repository, make your changes, and submit a pull request.
 
-License
-MIT License
 
 Contact
 For any queries or further information, please reach out via GitHub issues or email.
