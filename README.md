@@ -41,9 +41,9 @@ pip install -r requirements.txt
 We welcome contributions to this project! Please feel free to fork the repository, make your changes, and submit a pull request.
 
 
-Contact
+## Contact
 For any queries or further information, please reach out via GitHub issues or email.
 
-Acknowledgments
-OpenAI for GPT-4
-Pinecone for vector storage solutions
+### Acknowledgments
+- OpenAI for GPT-4
+- Pinecone for vector storage solutions
