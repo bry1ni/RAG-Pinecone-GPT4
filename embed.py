@@ -1,7 +1,14 @@
+import os
 import openai
-api_key = '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'
-client = openai.OpenAI(api_key = api_key)
 
-def ada_get_embedding(text, model="text-embedding-ada-002"):
+client = openai.OpenAI(api_key = os.environ["OPENAI_API_KEY"])
+
+def ada_get_embedding(text, model="text-embedding-ada-002", client=client):
    text = text.replace("\n", " ")
    return client.embeddings.create(input = [text], model=model).data[0].embedding
+
+def embedData(documents, client=client):
+    embeddings = []
+    for document in documents:
+        embeddings.append(ada_get_embedding(document))
+    return embeddings
