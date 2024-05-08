@@ -46,3 +46,4 @@ For any queries or further information, please reach out via GitHub issues or em
 ### Acknowledgments
 - OpenAI for GPT-4
 - Pinecone for vector storage solutions
+- LlamaParse from LlamaIndex for documents's content extraction
